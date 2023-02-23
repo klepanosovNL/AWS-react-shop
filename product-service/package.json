@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "serverless-functions-base-path": "^1.0.33"
+  },
+  "scripts": {
+    "deploy": "sls deploy"
+  }
+}
