@@ -6,9 +6,9 @@ const {HEADERS, STATUS_CODES} = require("../../const");
 module.exports.handler = async (event) => {
     try {
         const { id } = event.pathParameters;
-        const product = BOOKS.find((element) => element.id === +id);
+        const product = await BOOKS.find((element) => element.id === +id);
         const statusCode = product ? STATUS_CODES.SUCCESS : STATUS_CODES.NOT_FOUND;
-        const body = product ? JSON.stringify(product) : `Cannot find product ${id}`
+        const body = product ? JSON.stringify(product) : `Cannot find product with id: ${id}`
 
         return {
             statusCode,
