@@ -6,6 +6,11 @@
     "serverless-functions-base-path": "^1.0.33",
     "ts-node": "^10.9.1"
   },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.32.0",
+    "aws-sdk": "^2.1324.0",
+    "uuid": "^9.0.0"
+  },
   "scripts": {
     "deploy": "sls deploy",
     "test": "jest"
