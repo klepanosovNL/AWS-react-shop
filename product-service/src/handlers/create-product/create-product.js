@@ -1,7 +1,7 @@
 "use strict";
 
-import {DynamoDB} from "aws-sdk";
-import {HEADERS, STATUS_CODES} from "../../const";
+const {DynamoDB} = require('aws-sdk');
+const {HEADERS, STATUS_CODES} = require("../../const");
 
 const dynamo = new DynamoDB.DocumentClient({region: 'eu-west-1'});
 

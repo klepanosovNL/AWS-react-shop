@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c15c6e-eca7-401f-91a7-529850a6f886" name="Changes" comment="task - 4&#10;post - https://a27oyw9z84.execute-api.eu-west-1.amazonaws.com/dev/products">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/handlers/create-product/create-product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/serverless.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import-service/const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import-service/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import-service/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import-service/serverless.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import-service/src/handlers/import-file-parser/import-file-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import-service/src/handlers/import-products-file/import-products-file.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/handlers/create-product/create-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/handlers/create-product/create-product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/handlers/get-products-by-id/get-products-by-id.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/handlers/get-products-by-id/get-products-by-id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/handlers/get-products-list/get-products-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/handlers/get-products-list/get-products-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/mocks/books.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/handlers/get-products-by-id/get-products-by-id.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/handlers/get-products-by-id/get-products-by-id.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/handlers/get-products-list/get-products-list.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/handlers/get-products-list/get-products-list.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,21 +51,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Mikita_Klepanosau/Desktop/projects/AWS course/AWS-react-shop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "19.1.0",
+    "javascript.nodejs.core.library.typings.version": "18.15.3",
+    "last_opened_file_path": "/Users/Mikita_Klepanosau/Desktop/projects/AWS course/AWS-react-shop/import-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/Mikita_Klepanosau/Desktop/projects/AWS course/AWS-react-shop/shop-service/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/import-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product-service/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
