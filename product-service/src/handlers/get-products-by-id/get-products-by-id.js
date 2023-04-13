@@ -1,6 +1,5 @@
 'use strict'
 
-// const {BOOKS} = require("../../mocks/books");
 const {DynamoDB} = require('aws-sdk');
 const {joinTableById} = require("../../utils/utils");
 const {HEADERS, STATUS_CODES} = require("../../const");
