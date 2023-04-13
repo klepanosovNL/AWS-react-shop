@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21c15c6e-eca7-401f-91a7-529850a6f886" name="Changes" comment="task - 4&#10;post - https://a27oyw9z84.execute-api.eu-west-1.amazonaws.com/dev/products">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/handlers/create-product/create-product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/utils/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/serverless.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/serverless.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/handlers/get-products-by-id/get-products-by-id.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/handlers/get-products-by-id/get-products-by-id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/handlers/get-products-list/get-products-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/handlers/get-products-list/get-products-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/mocks/books.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task-3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MMk5SQBkrWnj5w9hes6thqHKrW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Mikita_Klepanosau/Desktop/projects/AWS course/AWS-react-shop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21c15c6e-eca7-401f-91a7-529850a6f886" name="Changes" comment="" />
+      <created>1677584656027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677584656027</updated>
+      <workItem from="1677584657161" duration="2378000" />
+      <workItem from="1677594761957" duration="2584000" />
+      <workItem from="1678283850064" duration="139000" />
+      <workItem from="1678284806738" duration="15292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="task - 4&#10;post - https://a27oyw9z84.execute-api.eu-west-1.amazonaws.com/dev/products" />
+    <option name="LAST_COMMIT_MESSAGE" value="task - 4&#10;post - https://a27oyw9z84.execute-api.eu-west-1.amazonaws.com/dev/products" />
+  </component>
+</project>

@@ -23,6 +23,20 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs12.x
+  iam:
+    role:
+      statements:
+        - Effect: "Allow"
+          Action:
+            - "dynamodb:GetItem"
+            - "dynamodb:DeleteItem"
+            - "dynamodb:Scan"
+            - "dynamodb:Query"
+            - "dynamodb:PutItem"
+          Resource: "*"
+  environment:
+    PRODUCT_TABLE_NAME: productTable
+    STOCK_TABLE_NAME: stockTable
 
 # you can overwrite defaults here
   stage: dev
@@ -47,8 +61,7 @@ provider:
 #                - "/*"
 
 # you can define service wide environment variables here
-#  environment:
-#    variable1: value1
+
 
 # you can add packaging information here
 #package:
@@ -75,6 +88,13 @@ functions:
       - http:
           path: products/{id}
           method: get
+
+  createProduct:
+    handler: create-product/create-product.handler
+    events:
+      - http:
+          path: /products
+          method: post
 
 plugins:
   - serverless-functions-base-path
